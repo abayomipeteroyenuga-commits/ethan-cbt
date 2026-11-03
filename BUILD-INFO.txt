@@ -1,0 +1,13 @@
+ETHAN CBT v0.2.1 — LIVE-CONNECTED APPLICATION FOUNDATION
+Build date: 03 November 2026
+Institution: Ethan Digital Academy
+Project: ethan-cbt (juumaqmkcmfpexgpzpfy)
+Region: eu-west-1 (Ireland)
+Frontend: static PWA, vanilla JavaScript ES module, Supabase JS pinned ESM 2.95.0
+Backend: Supabase PostgreSQL 17, Auth, RLS, institution-role model, server-side exam RPCs
+Owner: fedora4jesus@gmail.com — active owner membership verified
+Includes: per-question autosave queue, complete pre-submit answer flush and explicit save-error handling; email/password auth, candidate sign-up, password recovery, role-aware workspace, subjects, question banks, atomic question/answer-key creation, exam creation/publishing, candidate/staff membership assignment, exam assignment, server-timed candidate runner, autosave, resume, objective scoring, manual marking, result release, published candidate results, invigilation events, CSV results export.
+Database: 17 public tables; 17/17 RLS enabled; no anonymous table grants. Fifteen migrations are recorded in the live Supabase project. See database/MIGRATIONS-APPLIED.md.
+Validation: JavaScript syntax checked after final QA; manifest and Vercel JSON valid; CSS parsed without syntax errors; ZIP archive integrity checked; connected database functions and key RLS/RPC conditions smoke-tested. Browser end-to-end sign-in and examination workflows not yet verified against a deployed domain.
+Production blockers: enable leaked-password protection, confirm signup/email confirmation and redirect URL settings, perform browser tests, connect cbt.ethandigitalacademy.org and verify HTTPS.
+Standards/limitations: No fully offline exam mode, no QTI import/export yet, no certified proctoring or guaranteed anti-cheating claims.

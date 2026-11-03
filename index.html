@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#102b55">
+  <meta name="description" content="ETHAN CBT — secure computer-based testing and examination management for Ethan Digital Academy.">
+  <title>ETHAN CBT | Prepare. Assess. Excel.</title>
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="icon" href="/assets/ethan-cbt-mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div id="app"><div class="boot"><img src="/assets/ethan-digital-academy-logo.png" alt=""><b>ETHAN CBT</b><span>Preparing your examination workspace…</span></div></div>
+  <div id="toast-root" aria-live="polite" aria-atomic="true"></div>
+  <script type="module" src="/app.js"></script>
+  <script>
+    if ('serviceWorker' in navigator && location.protocol.startsWith('http')) {
+      window.addEventListener('load', () => navigator.serviceWorker.register('/sw.js').catch(() => {}));
+    }
+  </script>
+</body>
+</html>

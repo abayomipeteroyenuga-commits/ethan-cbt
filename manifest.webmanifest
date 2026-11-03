@@ -1,0 +1,13 @@
+{
+  "id": "/",
+  "name": "ETHAN CBT — Computer-Based Testing",
+  "short_name": "ETHAN CBT",
+  "description": "Examination management and secure computer-based testing by Ethan Digital Academy.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f4f7fb",
+  "theme_color": "#102b55",
+  "icons": [{"src":"/assets/ethan-cbt-mark.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
+}
